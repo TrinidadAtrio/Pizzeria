@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*----- Inicio estilos footer ------*/
+header, footer{
+    background-color: #222222;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    box-shadow: 0px 5px 15px gray;
+}
+.green{
+    color: #39B24A;
+}
+.red{
+    color: #FC200C;
+}
+h1{
+    font-size: 24px;
+}
+.nav-footer{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+.nav-let{
+    margin-left: 13px;
+}
+/* ----- Fin estilos footer ------ */
+
+/* ----- Inicio estilos body ------ */
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+/* ----- Inicio estilos main 1 ------ */
+.main-red{
+    color: #FC200C;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28,13px;
+    margin-left: 20px;
+    margin-top: 26px;
+}
+.white{
+    color: #FFF;
+}
+.main-1{
+    background-image: url(../img/delivery.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 350px;
+    left: 19px;
+    top: 135px;
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 19px;
+}
+/* ----- Fin estilos main ------ */
+
+/* ----- Inicio estilos main 2 ------ */
+
+.main-2{
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 350px;
+    left: 514px;
+    top: 135px;
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 19px;
+}
+.listaYPizza{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.podio{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18,75px; 
+    margin-bottom: 10px;
+}
+.podio-pizza{
+    text-align: center;
+}
+.img-pizza-2{
+    width: 92px;
+    height: 129px;
+    left: 839px;
+    top: 267px;   
+}
+.top5{
+    font-size: 20px;
+    margin-left: 69px;
+    margin-top: 58px;
+}
+.lista-main{
+    margin-top: 20px;
+    margin-left: 51px;
+    margin-bottom: 60px;
+}
+/* ----- Fin estilos main 2 ------ */
+ul{
+    list-style-type: none;
+}
+header, section, footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo, nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    margin-left: 10px;
+}
+.header-logoLetra{
+    margin-left: 10px;
+}
+.delivery{
+    position: relative;
+}
+.footer-lista{
+    font-size: 16px;
+    margin: 20px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 42px;
+}
+.footer-loloLetra{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.footer-lista-items{
+    margin-bottom: 12px;
+}
+.nav{
+    margin: 40px 20px 41px;
+}
+footer{
+    bottom:0px;
+    position: absolute;
+    width: 100vw;
+}
