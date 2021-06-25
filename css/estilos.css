@@ -4,39 +4,47 @@
     padding: 0;
     margin: 0;
 }
-/*----- Inicio estilos footer ------*/
-header, footer{
-    background-color: #222222;
-    color: #FFF;
-    font-family: 'Roboto', sans-serif;
+ul{
+    list-style-type: none;
 }
-header{
-    box-shadow: 0px 5px 15px gray;
+header, section, footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.green{
-    color: #39B24A;
-}
-.red{
-    color: #FC200C;
-}
-h1{
-    font-size: 24px;
-}
-.nav-footer{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18.75px;
-}
-.nav-let{
-    margin-left: 13px;
-}
-/* ----- Fin estilos footer ------ */
-
 /* ----- Inicio estilos body ------ */
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #E5E5E5;
 }
+/* ----- Estilos header ----- */
+header{
+    box-shadow: 0px 5px 15px gray;
+}
+.header-logo, .header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav{
+    margin: 40px 20px 41px;
+}
+.header-logo{
+    margin-left: 10px;
+}
+.header-logoLetra{
+    margin-left: 10px;
+}
+.header-logoLetraGreen{
+    color: #39B24A;
+}
+.header-logoLetraRed{
+    color: #FC200C;
+}
+h1{
+    font-size: 24px;
+}
+
 /* ----- Inicio estilos main 1 ------ */
 .main-red{
     color: #FC200C;
@@ -62,10 +70,10 @@ body{
     margin-bottom: 35px;
     margin-left: 19px;
 }
-/* ----- Fin estilos main ------ */
-
-/* ----- Inicio estilos main 2 ------ */
-
+.delivery{
+    position: relative;
+}
+/* ----- Estilos main 2 ------ */
 .main-2{
     background-color: #FFF;
     display: flex;
@@ -109,28 +117,19 @@ body{
     margin-left: 51px;
     margin-bottom: 60px;
 }
-/* ----- Fin estilos main 2 ------ */
-ul{
-    list-style-type: none;
+/*----- Estilos footer ------*/
+header, footer{
+    background-color: #222222;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
 }
-header, section, footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav-footer{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
 }
-.header-logo, nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.header-logo{
-    margin-left: 10px;
-}
-.header-logoLetra{
-    margin-left: 10px;
-}
-.delivery{
-    position: relative;
+.nav-let{
+    margin-left: 13px;
 }
 .footer-lista{
     font-size: 16px;
@@ -149,9 +148,7 @@ header, section, footer{
 .footer-lista-items{
     margin-bottom: 12px;
 }
-.nav{
-    margin: 40px 20px 41px;
-}
+
 footer{
     bottom:0px;
     position: absolute;
